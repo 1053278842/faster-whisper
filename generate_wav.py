@@ -14,10 +14,10 @@ audio_path = "audio.wav"
 
 # 加载环境变量
 load_dotenv()
-url = os.environ.get("UPLOAD_API")
-if url is None:
-    print("未找到UPLOAD_API配置")
-    raise Exception("UPLOAD_API 环境变量未配置！请参考ai-butler-api项目接口")
+# url = os.environ.get("UPLOAD_API")
+# if url is None:
+#     print("未找到UPLOAD_API配置")
+#     raise Exception("UPLOAD_API 环境变量未配置！请参考ai-butler-api项目接口")
 
 def download_audio(url: str, local_path: str):
     """
