@@ -2,11 +2,9 @@
 import os
 
 import requests
-import soundfile as sf
 from dotenv import load_dotenv
 from rabbitmq_utils import rabbitmq_client
 import json
-import hashlib
 from datetime import datetime, timedelta
 import threading
 import time
